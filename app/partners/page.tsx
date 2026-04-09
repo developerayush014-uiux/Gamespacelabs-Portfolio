@@ -19,7 +19,7 @@ const categoryColors: Record<string, string> = {
 };
 
 export default function PartnersPage() {
-  const categories = [...new Set(partners.map((p) => p.category))];
+  const categories = Array.from(new Set(partners.map((p) => p.category)));
 
   return (
     <div className="pt-20 min-h-screen">
