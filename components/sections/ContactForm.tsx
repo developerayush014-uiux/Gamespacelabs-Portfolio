@@ -17,6 +17,17 @@ import toast from "react-hot-toast";
 import { contactFormSchema, type ContactFormData, formSchema } from "@/data/form-schema";
 import { cn } from "@/lib/utils";
 
+// Type definitions for form fields
+type Option = { value: string; label: string };
+type FieldWithOptions = {
+  id: string;
+  type: string;
+  label: string;
+  required: boolean;
+  options: Option[];
+  validation?: any;
+};
+
 const STEPS = formSchema.steps;
 
 export default function ContactForm() {
@@ -205,7 +216,7 @@ export default function ContactForm() {
                     error={errors.services?.message}
                   >
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
-                      {formSchema.steps[1].fields[0].options?.map((opt) => (
+                      {(formSchema.steps[1].fields[0] as FieldWithOptions).options?.map((opt) => (
                         <button
                           key={opt.value}
                           type="button"
