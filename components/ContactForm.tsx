@@ -48,7 +48,7 @@ export default function ContactForm() {
     await new Promise((r) => setTimeout(r, 2000)); // Simulated API call
     setIsSubmitting(false);
     setSubmitted(true);
-    toast.success("Message sent! We'll respond within 24 hours.");
+    toast.success("Message sent! We&apos;ll respond within 24 hours.");
   };
 
   const toggleService = (value: string) => {
@@ -71,7 +71,7 @@ export default function ContactForm() {
         </div>
         <h3 className="font-display text-2xl font-bold text-white mb-3">Message Sent!</h3>
         <p className="text-white/50 max-w-sm mx-auto">
-          Thanks for reaching out. We'll review your project and get back to you within{" "}
+          Thanks for reaching out. We&apos;ll review your project and get back to you within{" "}
           <span className="text-white/80 font-medium">24 hours</span>.
         </p>
       </motion.div>

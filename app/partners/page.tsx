@@ -34,7 +34,7 @@ export default function PartnersPage() {
               100+ Partner Firms<br /><span className="gradient-text-cyan">Worldwide</span>
             </h1>
             <p className="text-white/50 text-lg max-w-xl leading-relaxed">
-              We've built a global network of partner firms across industries and regions. Together, we deliver solutions that make a real business impact.
+              We&apos;ve built a global network of partner firms across industries and regions. Together, we deliver solutions that make a real business impact.
             </p>
           </SectionReveal>
         </div>
@@ -130,7 +130,7 @@ export default function PartnersPage() {
                 <Handshake className="w-12 h-12 text-green-neon mx-auto mb-6" />
                 <h2 className="font-display text-4xl font-bold mb-4">Become a Partner</h2>
                 <p className="text-white/50 text-lg max-w-xl mx-auto mb-8">
-                  Are you an agency, consultancy, or technology firm looking to expand your service offering? Let's collaborate.
+                  Are you an agency, consultancy, or technology firm looking to expand your service offering? Let&apos;s collaborate.
                 </p>
                 <Link href="/contact" className="inline-flex items-center gap-2 px-7 py-3.5 rounded-xl text-base font-semibold font-display transition-all group" style={{ backgroundColor: "rgba(0,255,136,0.1)", border: "1px solid rgba(0,255,136,0.3)", color: "#00ff88" }}>
                   Partner with Us <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />

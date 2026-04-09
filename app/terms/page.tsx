@@ -34,7 +34,7 @@ export default function TermsPage() {
                 </div>
                 <div>
                   <h2 className="font-display text-xl font-bold text-white mb-3">4. Limitation of Liability</h2>
-                  <p>GameSpace Lab's liability is limited to the amount paid for the specific engagement in question. We are not liable for indirect or consequential damages.</p>
+                  <p>GameSpace Lab&apos;s liability is limited to the amount paid for the specific engagement in question. We are not liable for indirect or consequential damages.</p>
                 </div>
                 <div>
                   <h2 className="font-display text-xl font-bold text-white mb-3">5. Contact</h2>
