@@ -71,7 +71,7 @@ export default function ContactForm() {
         </div>
         <h3 className="font-display text-2xl font-bold text-white mb-3">Message Sent!</h3>
         <p className="text-white/50 max-w-sm mx-auto">
-          Thanks for reaching out. We&apos;ll review your project and get back to you within{" "}
+          Thanks for reaching out. We&#39;ll review your project and get back to you within{" "}
           <span className="text-white/80 font-medium">24 hours</span>.
         </p>
       </motion.div>

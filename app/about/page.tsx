@@ -20,7 +20,7 @@ export default function AboutPage() {
           <SectionReveal>
             <p className="text-cyan-glow text-sm font-mono font-medium tracking-widest uppercase mb-4">Who We Are</p>
             <h1 className="font-display text-5xl sm:text-6xl font-bold leading-tight mb-6">
-              Engineers Who&apos;ve Built<br /><span className="gradient-text-cyan">at Netflix Scale</span>
+              Engineers Who&#39;ve Built<br /><span className="gradient-text-cyan">at Netflix Scale</span>
             </h1>
             <p className="text-white/50 text-lg max-w-2xl leading-relaxed">
               GameSpace Lab is an Android-focused consultancy dedicated to helping businesses launch robust, secure, and scalable mobile applications — built with the same standards used inside top-tier tech companies.
@@ -126,7 +126,7 @@ export default function AboutPage() {
           <SectionReveal>
             <div className="text-center mb-14">
               <p className="text-cyan-glow text-sm font-mono font-medium tracking-widest uppercase mb-3">Industry Expertise</p>
-              <h2 className="font-display text-4xl font-bold">Industries We&apos;ve Served</h2>
+              <h2 className="font-display text-4xl font-bold">Industries We&#39;ve Served</h2>
             </div>
           </SectionReveal>
           <div className="flex flex-wrap justify-center gap-3">
@@ -172,7 +172,7 @@ export default function AboutPage() {
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <SectionReveal>
             <h2 className="font-display text-3xl sm:text-4xl font-bold mb-4">Ready to work together?</h2>
-            <p className="text-white/50 mb-8">Tell us about your project and we&apos;ll get back within 24 hours.</p>
+            <p className="text-white/50 mb-8">Tell us about your project and we&#39;ll get back within 24 hours.</p>
             <Link href="/contact" className="btn-primary inline-flex items-center gap-2 px-7 py-3.5 rounded-xl text-base font-semibold font-display group">
               <span className="relative z-10">Start a Conversation</span>
               <ArrowRight className="relative z-10 w-4 h-4 group-hover:translate-x-1 transition-transform" />

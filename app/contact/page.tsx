@@ -20,10 +20,10 @@ export default function ContactPage() {
           <SectionReveal>
             <p className="text-cyan-glow text-sm font-mono font-medium tracking-widest uppercase mb-4">Get In Touch</p>
             <h1 className="font-display text-5xl sm:text-6xl font-bold leading-tight mb-6">
-              Let&apos;s Build<br /><span className="gradient-text-cyan">Something Great</span>
+              Let&#39;s Build<br /><span className="gradient-text-cyan">Something Great</span>
             </h1>
             <p className="text-white/50 text-lg max-w-xl leading-relaxed">
-              Fill out the brief below and we&apos;ll get back to you within 24 hours with a tailored response.
+              Fill out the brief below and we&#39;ll get back to you within 24 hours with a tailored response.
             </p>
           </SectionReveal>
         </div>
@@ -67,7 +67,7 @@ export default function ContactPage() {
                     <span className="text-green-neon text-sm font-semibold">Now in India</span>
                   </div>
                   <p className="text-white/40 text-sm leading-relaxed">
-                    We&apos;re actively onboarding clients from India, Pakistan, Bangladesh, and Southeast Asia. Local timezone support available.
+                    We&#39;re actively onboarding clients from India, Pakistan, Bangladesh, and Southeast Asia. Local timezone support available.
                   </p>
                 </div>
               </SectionReveal>
