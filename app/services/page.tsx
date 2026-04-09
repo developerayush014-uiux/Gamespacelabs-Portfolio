@@ -1,3 +1,5 @@
+/* eslint-disable react/style-prop-object */
+
 import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowRight, Smartphone, Globe, Users, Briefcase, Check, Zap } from "lucide-react";

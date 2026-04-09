@@ -9,6 +9,17 @@ import toast from "react-hot-toast";
 import { contactFormSchema, type ContactFormData, formSchema } from "@/data/form-schema";
 import { cn } from "@/lib/utils";
 
+// Type definitions for form fields
+type Option = { value: string; label: string };
+type FieldWithOptions = {
+  id: string;
+  type: string;
+  label: string;
+  required: boolean;
+  options: Option[];
+  validation?: any;
+};
+
 const STEP_FIELDS: Record<number, (keyof ContactFormData)[]> = {
   0: ["fullName", "email", "phone", "companyName"],
   1: ["services", "projectDescription", "timeline"],
@@ -148,7 +159,7 @@ export default function ContactForm() {
               <div className="space-y-5">
                 <Field label="Services Required" required error={errors.services?.message}>
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
-                    {formSchema.steps[1].fields.find(f => f.id === "services")?.options?.map((opt) => (
+                    {(formSchema.steps[1].fields.find(f => f.id === "services") as FieldWithOptions)?.options?.map((opt) => (
                       <button
                         key={opt.value}
                         type="button"
@@ -183,7 +194,7 @@ export default function ContactForm() {
                   <Controller name="timeline" control={control} render={({ field }) => (
                     <select {...field} className={cn("form-input w-full px-4 py-3 rounded-xl appearance-none", errors.timeline && "error")}>
                       <option value="">Select timeline...</option>
-                      {formSchema.steps[1].fields.find(f => f.id === "timeline")?.options?.map(opt => (
+                      {(formSchema.steps[1].fields.find(f => f.id === "timeline") as FieldWithOptions)?.options?.map(opt => (
                         <option key={opt.value} value={opt.value}>{opt.label}</option>
                       ))}
                     </select>
@@ -198,7 +209,7 @@ export default function ContactForm() {
                 <Field label="Estimated Budget" required hint="Helps us scope the right team." error={errors.budget?.message}>
                   <Controller name="budget" control={control} render={({ field }) => (
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
-                      {formSchema.steps[2].fields.find(f => f.id === "budget")?.options?.map(opt => (
+                      {(formSchema.steps[2].fields.find(f => f.id === "budget") as FieldWithOptions)?.options?.map(opt => (
                         <button key={opt.value} type="button" onClick={() => field.onChange(opt.value)}
                           className={cn("px-4 py-3 rounded-xl border text-sm text-left transition-all",
                             field.value === opt.value ? "border-cyan-glow/50 bg-cyan-glow/10 text-cyan-glow" : "border-white/[0.08] bg-white/[0.02] text-white/50 hover:border-white/20 hover:text-white/70")}>
@@ -213,7 +224,7 @@ export default function ContactForm() {
                   <Controller name="referral" control={control} render={({ field }) => (
                     <select {...field} className="form-input w-full px-4 py-3 rounded-xl appearance-none">
                       <option value="">Select...</option>
-                      {formSchema.steps[2].fields.find(f => f.id === "referral")?.options?.map(opt => (
+                      {(formSchema.steps[2].fields.find(f => f.id === "referral") as FieldWithOptions)?.options?.map(opt => (
                         <option key={opt.value} value={opt.value}>{opt.label}</option>
                       ))}
                     </select>

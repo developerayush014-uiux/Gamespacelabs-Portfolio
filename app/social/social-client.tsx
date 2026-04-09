@@ -1,3 +1,5 @@
+/* eslint-disable react/style-prop-object */
+
 "use client";
 
 import { motion } from "framer-motion";
