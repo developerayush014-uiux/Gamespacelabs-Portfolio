@@ -35,7 +35,7 @@ export const formSchema = {
           id: "phone",
           type: "tel",
           label: "Phone Number",
-          placeholder: "+91 98765 43210",
+          placeholder: "+91 70656 34862",
           required: false,
           validation: { pattern: "phone" },
         },

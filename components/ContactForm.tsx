@@ -145,7 +145,7 @@ export default function ContactForm() {
                 </div>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
                   <Field label="Phone Number" error={errors.phone?.message}>
-                    <input {...register("phone")} type="tel" placeholder="+91 98765 43210" className="form-input w-full px-4 py-3 rounded-xl" />
+                    <input {...register("phone")} type="tel" placeholder="+91 70656 34862" className="form-input w-full px-4 py-3 rounded-xl" />
                   </Field>
                   <Field label="Company / Website" hint="Startup, agency, or individual?" error={errors.companyName?.message}>
                     <input {...register("companyName")} placeholder="Acme Inc. or acme.com" className="form-input w-full px-4 py-3 rounded-xl" />

@@ -7,7 +7,7 @@ export const siteConfig = {
   description:
     "Built by engineers from Netflix and Google, GameSpace Lab delivers world-class Android & web solutions to businesses across 200+ countries.",
   email: "gamespacelabs@gmail.com",
-  phone: "+91 98765 43210",
+  phone: "+91 70656 34862",
   socials: {
     twitter: "https://twitter.com/gamespacelab",
     linkedin: "https://linkedin.com/company/gamespacelab",

@@ -189,7 +189,7 @@ export default function ContactForm() {
                       <input
                         {...register("phone")}
                         type="tel"
-                        placeholder="+91 98765 43210"
+                        placeholder="+91 70656 34862"
                         className={cn("form-input w-full px-4 py-3 rounded-xl text-sm", errors.phone && "error")}
                       />
                     </FormField>
