@@ -34,7 +34,7 @@ export default function PrivacyPage() {
                 </div>
                 <div>
                   <h2 className="font-display text-xl font-bold text-white mb-3">4. Contact</h2>
-                  <p>For privacy-related inquiries, contact us at <a href="mailto:hello@gamespacelab.com" className="text-cyan-glow hover:underline">hello@gamespacelab.com</a>.</p>
+                  <p>For privacy-related inquiries, contact us at <a href="mailto:gamespacelabs@gmail.com" className="text-cyan-glow hover:underline">gamespacelabs@gmail.com</a>.</p>
                 </div>
               </div>
             </SectionReveal>

@@ -38,7 +38,7 @@ export default function TermsPage() {
                 </div>
                 <div>
                   <h2 className="font-display text-xl font-bold text-white mb-3">5. Contact</h2>
-                  <p>For inquiries, contact <a href="mailto:hello@gamespacelab.com" className="text-cyan-glow hover:underline">hello@gamespacelab.com</a>.</p>
+                  <p>For inquiries, contact <a href="mailto:gamespacelabs@gmail.com" className="text-cyan-glow hover:underline">gamespacelabs@gmail.com</a>.</p>
                 </div>
               </div>
             </SectionReveal>
